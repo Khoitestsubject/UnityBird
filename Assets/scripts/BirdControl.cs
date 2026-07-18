@@ -78,7 +78,7 @@ public class BirdControl : MonoBehaviour {
 		{
             if (!dead)
             {
-                TakeDamage(10);
+                TakeDamage(50);
 
                 // bounce off the ground so the bird cannot sit on it draining HP
                 if (other.name == "land" && !dead)
